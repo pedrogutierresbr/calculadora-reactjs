@@ -62,7 +62,7 @@ function Calculadora() {
                 background: "transparent !important",
                 backgroundColor: "#4c4c4c",
                 padding: "5px",
-                margin: "20px auto",
+                margin: "150px auto",
                 width: "400px",
                 borderRadius: "8px",
             }}
@@ -82,7 +82,8 @@ function Calculadora() {
                             className="text-end"
                             readOnly="readonly"
                             value={txtNumeros}
-                        ></Form.Control>
+                            data-testid="txtNumeros"
+                        />
                     </Col>
                 </Row>
 
@@ -103,7 +104,7 @@ function Calculadora() {
                         </Button>
                     </Col>
                     <Col>
-                        <Button variant="warning" onClick={() => definirOperacao("/")}>
+                        <Button variant="warning" onClick={() => definirOperacao(DIVISAO)}>
                             /
                         </Button>
                     </Col>
@@ -126,7 +127,7 @@ function Calculadora() {
                         </Button>
                     </Col>
                     <Col>
-                        <Button variant="warning" onClick={() => definirOperacao("*")}>
+                        <Button variant="warning" onClick={() => definirOperacao(MULTIPLICACAO)}>
                             *
                         </Button>
                     </Col>
@@ -149,7 +150,7 @@ function Calculadora() {
                         </Button>
                     </Col>
                     <Col>
-                        <Button variant="warning" onClick={() => definirOperacao("-")}>
+                        <Button variant="warning" onClick={() => definirOperacao(SUBTRACAO)}>
                             -
                         </Button>
                     </Col>
@@ -172,7 +173,7 @@ function Calculadora() {
                         </Button>
                     </Col>
                     <Col>
-                        <Button variant="warning" onClick={() => definirOperacao("+")}>
+                        <Button variant="warning" onClick={() => definirOperacao(SOMA)}>
                             +
                         </Button>
                     </Col>
