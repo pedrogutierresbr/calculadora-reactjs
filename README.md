@@ -2,7 +2,7 @@
 
 ## About the project
 
-Project of a simple calculator created in order to exercise my skills with React Js and Bootstrap. In this project, I was able to use TDD process to avoid bugs and excersise this process.
+Project of a simple calculator created in order to exercise my skills with React Js and Bootstrap. In this project, I was able to use TDD process to avoid bugs and exercise that process.
 
 ## Layout
 
