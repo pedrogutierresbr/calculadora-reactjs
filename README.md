@@ -26,12 +26,15 @@ This project was developed with the following technologies:
 
 ```
 * clone the repository
+
 git clone https://github.com/pedrogutierresbr/calculadora-reactjs.git
 
 * Access the project folder in the terminal/cmd
+
 cd calculadora-reactjs
 
 * In the terminal run
+
 npm install -> To install project dependencies
 
 npm start -> To start the local server (to access the project via browser, type in the address bar: localhost:3000)
