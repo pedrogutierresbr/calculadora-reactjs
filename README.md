@@ -2,7 +2,7 @@
 
 ## About the project
 
-Project of a calculator with only the main functions like add, subtract, multiply and divide created to exercise my skills with **React Js** and **Bootstrap**. In this project, I was able to use the **TDD process** to avoid bugs and exercise that process.
+Project of a calculator with only the main functions like add, subtract, multiply and divide created to exercise my skills with **React Js** and **Bootstrap**. In this project, I was able to use the **TDD process** with **Jest** to avoid bugs and exercise that process.
 
 ## Layout
 
