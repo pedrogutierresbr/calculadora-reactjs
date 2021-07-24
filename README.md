@@ -22,6 +22,8 @@ This project was developed with the following technologies:
 
 -   React Js
 
+-   Jest
+
 ## How to run
 
 ```
