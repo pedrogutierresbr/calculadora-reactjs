@@ -28,7 +28,6 @@ function Calculadora() {
         //apenas define operacao caso nao exista
         if (operacao === null) {
             setOperacao(op);
-            setTxtNumeros(op);
             return;
         }
         //caso operacao estiver definida e numero 2 selecionado, realiza o calculo da operacao previa
